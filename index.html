@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>日本トロマツ株式会社 — 信頼できるWeb制作・開発パートナー</title>
+    <meta
+      name="description"
+      content="日本トロマツ株式会社は、要件整理からデザイン・開発・運用までワンストップで支援します。Webサイト制作、業務システム、保守運用のご相談はお気軽に。"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="日本トロマツ株式会社" />
+    <meta
+      property="og:description"
+      content="要件整理からデザイン・開発・運用までワンストップ。Web制作・開発パートナー。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%230b5cff' d='M12 44c8-18 26-28 40-24-6 18-24 34-40 24Z'/%3E%3Cpath fill='%2300c2ff' d='M52 20c-6 18-24 34-40 24 10-10 24-22 40-24Z' opacity='.55'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./main.js"></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "日本トロマツ株式会社",
+        "url": "https://example.com",
+        "telephone": "+81-3-0000-0000",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "JP",
+          "addressRegion": "東京都",
+          "addressLocality": "千代田区",
+          "streetAddress": "丸の内 1-2-3",
+          "postalCode": "100-0000"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">本文へスキップ</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="トップへ">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">日本トロマツ株式会社</span>
+        </a>
+
+        <nav class="nav" aria-label="グローバルナビゲーション">
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="navPanel"
+            data-nav-toggle
+          >
+            <span class="sr-only">メニューを開閉</span>
+            <span class="nav-toggle-lines" aria-hidden="true"></span>
+          </button>
+
+          <div class="nav-panel" id="navPanel" data-nav-panel>
+            <ul class="nav-list">
+              <li><a class="nav-link" href="#services">サービス</a></li>
+              <li><a class="nav-link" href="#pricing">料金</a></li>
+              <li><a class="nav-link" href="#work">実績</a></li>
+              <li><a class="nav-link" href="#about">会社概要</a></li>
+              <li><a class="nav-link" href="#careers">採用</a></li>
+            </ul>
+            <div class="nav-cta">
+              <a class="btn btn-primary" href="#contact">お問い合わせ</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="pill">
+              <span class="dot" aria-hidden="true"></span>
+              相談〜運用までワンストップ
+            </p>
+            <h1 class="hero-title">
+              伝わるデザインと、<br />
+              伸びるプロダクトを。
+            </h1>
+            <p class="hero-lead">
+              日本トロマツ株式会社は、要件整理・UI/UX・開発・保守まで一貫支援。小さく早く作り、数字で改善していく伴走型の制作・開発チームです。
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">無料相談をする</a>
+              <a class="btn btn-ghost" href="#pricing">料金を見る</a>
+            </div>
+
+            <dl class="hero-stats" aria-label="実績のハイライト">
+              <div class="stat">
+                <dt>平均初回返信</dt>
+                <dd>24時間以内</dd>
+              </div>
+              <div class="stat">
+                <dt>継続率</dt>
+                <dd>90%+</dd>
+              </div>
+              <div class="stat">
+                <dt>対応領域</dt>
+                <dd>企画〜運用</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero-card" aria-label="特徴">
+            <div class="card-grid">
+              <article class="card">
+                <h2 class="card-title">スピード</h2>
+                <p class="card-text">最短2週間でβ公開。仮説検証を最速で回します。</p>
+              </article>
+              <article class="card">
+                <h2 class="card-title">品質</h2>
+                <p class="card-text">設計・テスト・レビューで、運用しやすい実装へ。</p>
+              </article>
+              <article class="card">
+                <h2 class="card-title">伴走</h2>
+                <p class="card-text">KPIと改善案を共有し、成果まで一緒に進めます。</p>
+              </article>
+              <article class="card">
+                <h2 class="card-title">透明性</h2>
+                <p class="card-text">進捗・コスト・リスクを見える化して合意形成。</p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-bg" aria-hidden="true"></div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title">サービス</h2>
+            <p class="section-lead">課題の整理から公開後の改善まで。必要なところから柔軟に支援します。</p>
+          </header>
+
+          <div class="grid-3">
+            <article class="feature">
+              <h3 class="feature-title">コーポレートサイト制作</h3>
+              <p class="feature-text">会社の強みが伝わる情報設計と、信頼感のあるデザインで受注と採用を後押し。</p>
+              <ul class="feature-list">
+                <li>構成案 / ワイヤー</li>
+                <li>デザイン / 実装</li>
+                <li>更新しやすい運用設計</li>
+              </ul>
+            </article>
+
+            <article class="feature">
+              <h3 class="feature-title">Webアプリ・業務システム開発</h3>
+              <p class="feature-text">現場にフィットする業務フローを設計し、拡張性のあるシステムへ。</p>
+              <ul class="feature-list">
+                <li>要件定義 / 仕様策定</li>
+                <li>実装 / テスト</li>
+                <li>保守 / 改善</li>
+              </ul>
+            </article>
+
+            <article class="feature">
+              <h3 class="feature-title">保守運用・改善</h3>
+              <p class="feature-text">速度・SEO・CVRの改善を継続的に。数字に基づき優先度を決めます。</p>
+              <ul class="feature-list">
+                <li>サイト健康診断</li>
+                <li>アクセス分析</li>
+                <li>改善ロードマップ</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="pricing">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title">料金</h2>
+            <p class="section-lead">
+              まずは目安としてのプラン例です。内容に合わせて最適な構成をご提案します（個別見積もり可）。
+            </p>
+          </header>
+
+          <div class="pricing-grid">
+            <article class="price-card">
+              <div class="price-top">
+                <h3 class="price-title">スターター</h3>
+                <p class="price-amount">¥29,800<span class="price-unit">/月</span></p>
+                <p class="price-note">小規模チーム向け</p>
+              </div>
+              <ul class="price-list">
+                <li>基本機能</li>
+                <li>メールサポート</li>
+                <li>月次レポート</li>
+              </ul>
+              <a class="btn btn-ghost" href="#contact">このプランを相談</a>
+            </article>
+
+            <article class="price-card featured" aria-label="おすすめプラン">
+              <div class="price-badge">おすすめ</div>
+              <div class="price-top">
+                <h3 class="price-title">スタンダード</h3>
+                <p class="price-amount">¥79,800<span class="price-unit">/月</span></p>
+                <p class="price-note">運用までしっかり</p>
+              </div>
+              <ul class="price-list">
+                <li>スターターの全て</li>
+                <li>チャットサポート</li>
+                <li>改善提案（隔週）</li>
+                <li>SLA（ベストエフォート）</li>
+              </ul>
+              <a class="btn btn-primary" href="#contact">無料で相談する</a>
+            </article>
+
+            <article class="price-card">
+              <div class="price-top">
+                <h3 class="price-title">エンタープライズ</h3>
+                <p class="price-amount">要お見積り</p>
+                <p class="price-note">要件に合わせて設計</p>
+              </div>
+              <ul class="price-list">
+                <li>SSO / 権限設計</li>
+                <li>監査ログ / セキュリティ要件</li>
+                <li>専任サポート</li>
+                <li>個別SLA</li>
+              </ul>
+              <a class="btn btn-ghost" href="#contact">見積もりを依頼</a>
+            </article>
+          </div>
+
+          <p class="pricing-footnote">
+            ※表示価格は税別の目安です。初期費用・導入支援・カスタマイズは内容により変動します。
+          </p>
+        </div>
+      </section>
+
+      <section class="section alt" id="work">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title">実績</h2>
+            <p class="section-lead">掲載許可がある一部のみ。詳細はお問い合わせください。</p>
+          </header>
+
+          <div class="grid-3">
+            <article class="work">
+              <div class="work-badge">B2B</div>
+              <h3 class="work-title">製造業向けサイト刷新</h3>
+              <p class="work-text">情報設計と導線改善で問い合わせ数が増加。</p>
+              <dl class="work-metrics">
+                <div><dt>期間</dt><dd>6週間</dd></div>
+                <div><dt>範囲</dt><dd>設計〜実装</dd></div>
+              </dl>
+            </article>
+
+            <article class="work">
+              <div class="work-badge">採用</div>
+              <h3 class="work-title">採用LP制作</h3>
+              <p class="work-text">職種別の魅力訴求で応募導線を最適化。</p>
+              <dl class="work-metrics">
+                <div><dt>期間</dt><dd>3週間</dd></div>
+                <div><dt>範囲</dt><dd>デザイン〜実装</dd></div>
+              </dl>
+            </article>
+
+            <article class="work">
+              <div class="work-badge">SaaS</div>
+              <h3 class="work-title">管理画面のUI改善</h3>
+              <p class="work-text">操作ミスを減らし、業務時間を削減。</p>
+              <dl class="work-metrics">
+                <div><dt>期間</dt><dd>4週間</dd></div>
+                <div><dt>範囲</dt><dd>UI/UX</dd></div>
+              </dl>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title">会社概要</h2>
+            <p class="section-lead">最小の手数で、最大の成果を。コミュニケーションの摩擦を減らす仕組みを大切にしています。</p>
+          </header>
+
+          <div class="about">
+            <div class="about-panel">
+              <h3 class="about-title">私たちの約束</h3>
+              <ol class="promise">
+                <li>目的とKPIを最初に決め、迷わない判断軸を作る</li>
+                <li>早く出し、計測して、改善で伸ばす</li>
+                <li>運用の現実に合わせた、壊れにくい設計にする</li>
+              </ol>
+            </div>
+
+            <dl class="company" aria-label="会社情報">
+              <div class="company-row">
+                <dt>会社名</dt>
+                <dd>日本トロマツ株式会社</dd>
+              </div>
+              <div class="company-row">
+                <dt>所在地</dt>
+                <dd>東京都千代田区丸の内 1-2-3</dd>
+              </div>
+              <div class="company-row">
+                <dt>事業内容</dt>
+                <dd>Web制作 / システム開発 / 保守運用</dd>
+              </div>
+              <div class="company-row">
+                <dt>設立</dt>
+                <dd>20XX年</dd>
+              </div>
+              <div class="company-row">
+                <dt>お問い合わせ</dt>
+                <dd><a href="#contact">フォームはこちら</a></dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="careers">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title">採用</h2>
+            <p class="section-lead">小さなチームで、大きな価値を。フルリモート/副業など柔軟な働き方も相談できます。</p>
+          </header>
+
+          <div class="grid-2">
+            <article class="role">
+              <h3 class="role-title">Webエンジニア</h3>
+              <p class="role-text">フロント/バックを横断し、ユーザー価値に責任を持つ開発を行います。</p>
+              <ul class="role-list">
+                <li>要件整理 / 設計 / 実装 / 運用</li>
+                <li>レビュー文化・ドキュメント重視</li>
+                <li>相談ベースの技術選定</li>
+              </ul>
+            </article>
+            <article class="role">
+              <h3 class="role-title">デザイナー（UI/UX）</h3>
+              <p class="role-text">情報設計から入り、成果につながる体験設計を作ります。</p>
+              <ul class="role-list">
+                <li>サイト構成 / ワイヤー / UI</li>
+                <li>デザインシステム運用</li>
+                <li>改善提案と検証</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="center">
+            <a class="btn btn-ghost" href="#contact">採用について問い合わせる</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title">お問い合わせ</h2>
+            <p class="section-lead">ご相談内容が固まっていなくても大丈夫です。現状と目的だけ教えてください。</p>
+          </header>
+
+          <div class="contact">
+            <form class="form" data-contact-form novalidate>
+              <div class="field">
+                <label for="name">お名前 <span aria-hidden="true">*</span></label>
+                <input id="name" name="name" autocomplete="name" required />
+                <p class="hint" id="nameHint">例：山田 太郎</p>
+              </div>
+
+              <div class="field">
+                <label for="email">メールアドレス <span aria-hidden="true">*</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+                <p class="hint" id="emailHint">例：taro@example.com</p>
+              </div>
+
+              <div class="field">
+                <label for="topic">ご相談種別</label>
+                <select id="topic" name="topic">
+                  <option value="website">コーポレートサイト</option>
+                  <option value="system">システム開発</option>
+                  <option value="maintenance">保守運用・改善</option>
+                  <option value="recruit">採用</option>
+                  <option value="other">その他</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="message">内容 <span aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+                <p class="hint">「目的 / 期限 / 予算感 / 現状URL」があるとスムーズです。</p>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">送信（メール作成）</button>
+                <p class="form-note">
+                  ※このテンプレはサーバー送信を行いません。送信ボタンでメール作成画面を開きます（後で実送信にも変更可能）。
+                </p>
+              </div>
+
+              <p class="form-result" role="status" aria-live="polite" data-form-result></p>
+            </form>
+
+            <aside class="contact-aside" aria-label="連絡先">
+              <div class="contact-box">
+                <h3 class="contact-title">連絡先</h3>
+                <dl class="contact-dl">
+                  <div><dt>メール</dt><dd><a href="mailto:hello@example.com">hello@example.com</a></dd></div>
+                  <div><dt>電話</dt><dd><a href="tel:+81300000000">03-0000-0000</a></dd></div>
+                  <div><dt>受付</dt><dd>平日 10:00–18:00</dd></div>
+                </dl>
+              </div>
+
+              <div class="contact-box">
+                <h3 class="contact-title">所在地</h3>
+                <p class="contact-text">東京都千代田区丸の内 1-2-3</p>
+                <p class="contact-text subtle">※地図は公開方法に合わせて埋め込みできます。</p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-mark small" aria-hidden="true"></span>
+          <span class="brand-name">日本トロマツ株式会社</span>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#services">サービス</a></li>
+          <li><a href="#pricing">料金</a></li>
+          <li><a href="#about">会社概要</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+        <p class="copyright">© <span data-year></span> 日本トロマツ株式会社. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
