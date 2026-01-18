@@ -182,6 +182,12 @@ a:hover{ text-decoration:underline; text-underline-offset:4px; }
   border-color: transparent;
   color: #081020;
 }
+
+/* Make the header "お問い合わせ" button a bit more prominent */
+.nav-cta .btn{
+  font-size: 15px;
+  padding: 13px 16px;
+}
 .btn-ghost{
   background: color-mix(in oklab, var(--card) 55%, transparent);
 }
@@ -307,6 +313,11 @@ a:hover{ text-decoration:underline; text-underline-offset:4px; }
   margin:0 0 8px;
   font-size: 22px;
   letter-spacing:-.01em;
+}
+
+/* Contact heading: "お問い合わせ" */
+#contact .section-title{
+  font-size: 28px;
 }
 .section-lead{
   margin:0;
