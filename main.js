@@ -85,7 +85,7 @@ function setupContactForm() {
 
     const subject = `【お問い合わせ】${topic} / ${name}`;
     const body = [
-      "日本トロマツ株式会社 御中",
+      "トロマツ 御中",
       "",
       "以下の内容でお問い合わせします。",
       "",
